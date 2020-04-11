@@ -22,6 +22,10 @@ body {
     align-content: center;
     text-align: center;
 }
+#navbarleft {
+    float: left;
+    
+}
 #navbarright {
     float: right;
     margin-left: 17px;
@@ -74,7 +78,7 @@ div {
 }
 .homebase {
         margin-top: 117px;
-    margin-left: 275px;
+    margin-left: 15px;
 }
 #mag {
     height: 15px;
@@ -106,8 +110,40 @@ div {
     padding-bottom: 7px;
     font-size: 13px;
 }
-p {
-    color: blue;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    }
+#footer {
+    height: 30px;
+    background: rgb(231, 231, 231);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#footercontainer {
+    height: 30px;
+    background: rgb(231, 231, 231);
+    bottom: 0;
+}
+
+#footerleft {
+    float: left;
+    margin: 15px;
+}
+#footerright {
+    float: right;
+    margin: 15px;
+}
+.footleft, .footright {
+display: inline;
+color: rgb(83, 83, 83);
+margin: 10px;
+align-content: center;
+}
+.footlinks{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    opacity: 0.75;
+    font-size: 13px;
+}
+.footlinks:hover{
+    text-decoration: underline;
+}
