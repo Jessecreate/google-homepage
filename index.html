@@ -2,26 +2,62 @@
 <html>
     <head>
         <title>Jesse's Google</title>
-
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
-    <div>
+        <nav id="navbar" class="container">
+        <ul id="navbarleft">
+            <li class="navleft"><a href="#" class="links">About</a></li>
+            <li class="navleft"><a href="#" class="links">Store</a></li>
+        </ul>
+        <ul id="navbarright">
+            <li class="navright"><a href="#" class="links">Gmail</a></li>
+            <li class="navright"><a href="#" class="links">Images</a></li>
+            <l1 class="navright"><a href="#" class="links"><img id="apps" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-512.png" alt=Google Apps</a></l1>
+            <li class="navright"><a href="#" class="signin">Sign in</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div id="logo">
         <img class= homebase id=googlelogo src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google homepage logo">
     </div>
-    <div>
+
+    <div id="searchbar">
+        <img id="mag" src="https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png">
         <input class=googlesearch type= search id="googlesearch">
+        <img id="voice" src="https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
     </div>
-    <div>
-        <input type=submit value= "Google Search">
-        <input type=submit value= "I'm Feeling Lucky">
+
+    <div id= "searchbuttons">
+        <button class= btn type= submit value= "Google Search">Google Search</button>
+        <button class= btn type= submit value= "I'm Feeling Lucky">I'm Feeling Lucky</button>
     </div>
-        <p>Work in progress.</p>
-<p>Project Start: 10April2020 1630</p>
+</main>
         
-<footer>
+<footer id="footer">
+    <div id="footercontainer">
+        <div id="footerleft">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </div>
         
 
         </footer>
+        <p>Work in progress.</p>
+        <p>Project Start: 10April2020 1630</p>
+        
     </body>
 </html>
